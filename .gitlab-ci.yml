@@ -27,3 +27,18 @@ test:
   script: 
     - npm install
     - CI=true npm run test
+
+deploy:
+  stage: deploy
+  image: ruby:latest
+  script: 
+    - apt-get update -qy
+    - apt-get install -y ruby-dev
+    - gem install dpl
+    - dpl --provider=heroku --app=reactjs-fe-binar --api-key=$HEROKU
+    - echo "deployed to server heroku"
+  environment:
+    name : test
+    url : https://reactjs-fe-binar.herokuapp.com/
+  only :
+   - week7
