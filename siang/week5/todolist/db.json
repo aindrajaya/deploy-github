@@ -1,0 +1,65 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "Data 1",
+      "author": "Rudi",
+      "id": 2
+    },
+    {
+      "title": "Data berikutnya",
+      "author": "Rudi",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "anggota": [
+    {
+      "nama": "Rudi",
+      "email": "rudi@mail.com",
+      "id": 1
+    },
+    {
+      "nama": "Endi",
+      "email": "endi@mail.com",
+      "id": 2
+    },
+    {
+      "nama": "Diqo",
+      "email": "diqo@mail.com",
+      "id": 3
+    },
+    {
+      "nama": "rudi lagi",
+      "email": "rudilagi@mail.com",
+      "id": 4
+    }
+  ],
+  "todolists": [
+    {
+      "id": 1,
+      "task": "walking in the morning"
+    },
+    {
+      "id": 2,
+      "task": "talking to the others"
+    },
+    {
+      "id": 3,
+      "task": "tambah data"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

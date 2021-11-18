@@ -1,0 +1,51 @@
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: antiquewhite;
+}
+
+.navbar {
+  background-color: violet;
+}
+
+.logo {
+  display: flex;
+  width: 10%;
+  background-color: red;
+  justify-content: flex-start;
+}
+
+.nav-content {
+  display: flex;
+}
+
+.menu-and-login {
+  display: flex;
+  justify-content: end;
+  width: 90%;
+}
+
+.mainmenu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainmenu > li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Content styling */
+.wrapper{
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-gap: 1em;
+  /* justify-content: center; */
+}
+.wrapper > div {
+  background-color: #eee;
+  padding: 1em;
+}
+
+.wrapper > div:nth-child(odd){
+  background-color: #ddd;
+}

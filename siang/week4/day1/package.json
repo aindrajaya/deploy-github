@@ -1,0 +1,21 @@
+{
+  "name": "day1",
+  "version": "1.0.0",
+  "description": "ini untuk ujicoba",
+  "main": "index.js",
+  "scripts": {
+    "coba": "webpack",
+    "start": "webpack && node build/main.js",
+    "build-start": "node build/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
