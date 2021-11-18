@@ -26,7 +26,7 @@ describe('test first render tombol belum di klik', () => {
   })
   test('tulisan di tombol ketika render pertama kali', () => {
     render(<App />)
-    const txt = screen.getByText(/munculkanaaaa/i)
+    const txt = screen.getByText(/munculkan/i)
     expect(txt).toBeInTheDocument();
   })
 })
